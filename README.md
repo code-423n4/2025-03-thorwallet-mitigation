@@ -1,11 +1,11 @@
-# [Sponsorname] Mitigation Review
-- Total Prize Pool: XXX XXX
-  - Warden awards: XXX XXX
-  - Judge awards: XXX XXX
-  - Scout awards: XXX XXX
+# THORWallet Mitigation Review
+- Total Prize Pool: $3,000 in USDC
+  - Warden awards: $2,000 in USDC
+  - Judge awards: $750 in USDC
+  - Scout awards: $250 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
-- Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
+- Starts March 18, 2025 20:00 UTC 
+- Ends March 25, 2025 20:00 UTC 
 
 ## Important note 
 
@@ -15,7 +15,9 @@ Each warden must submit a mitigation review for *every* individual PR listed in 
 
 Mitigations of all High and Medium issues will be considered in-scope and listed here.
 
-- [H-01: Title](link to Github issue)
+- [H-01: The user can send tokens to any address by using two bridge transfers, even when transfers are restricted.](https://code4rena.com/evaluate/2025-02-thorwallet/findings/S-391)
+- [H-02: MergeTgt has no handling if TGT_TO_EXCHANGE is exceeded during the exchange period](https://code4rena.com/evaluate/2025-02-thorwallet/findings/S-171)
+- [M-01: Improper Transfer Restrictions on Non-Bridged Tokens Due to Boolean Bridged Token Tracking, Allowing a DoS Attack Vector](https://code4rena.com/evaluate/2025-02-thorwallet/findings/S-125)
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
