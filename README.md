@@ -28,28 +28,30 @@ Please provide context about the mitigations that were applied if applicable and
 ## Scope
 
 ### Branch
-[ ⭐️ SPONSORS ADD A LINK TO THE BRANCH IN YOUR REPO CONTAINING ALL PRS ]
+https://github.com/THORWallet/TGT-TITN-merge-contracts/tree/audit-1
+https://github.com/THORWallet/TGT-TITN-merge-contracts/tree/audit-2
+https://github.com/THORWallet/TGT-TITN-merge-contracts/tree/audit-3
+https://github.com/THORWallet/TGT-TITN-merge-contracts/tree/audit-4
 
 ### Mitigation of High & Medium Severity Issues
-[ ⭐️ SPONSORS ADD ALL RELEVANT PRs TO THE TABLE BELOW:]
-
 Wherever possible, mitigations should be provided in separate pull requests, one per issue. If that is not possible (e.g. because several audit findings stem from the same core problem), then please link the PR to all relevant issues in your findings repo. 
 
 | URL | Mitigation of | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/your-repo/sample-contracts/pull/XXX | H-01 | This mitigation does XYZ | 
+| https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/4 | H-01 | Only allow bridging to the sender's own address | (F-9)
+| https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/2 | H-02 | Fix issue when depositing more TGT and specified in the contract | (F-6)
+
 
 ### Additional scope to be reviewed
-[ ⭐️ CAS PLEASE REMOVE THIS SECTION IF THE SPONSOR IS ONLY MITIGATING HMS]
-
-[ ⭐️ SPONSORS ADD ALL RELEVANT PRs TO THE TABLE BELOW:]
-
 These are additional changes that will be in scope.
 
 | URL | Reference ID | Purpose | 
 | ----------- | ------------- | ----------- |
-| https://github.com/your-repo/sample-contracts/pull/XXX | ADD-01 | This mitigation does XYZ | 
+| https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/1 | ADD-01 | Fix issue claiming TITN on day 360 | (F-3)
+| https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/3 | ADD-02 | This mitigation does XYZ | (F-4) 
+
 
 ## Out of Scope
 
 Please list any High and Medium issues that were judged as valid but you have chosen not to fix.
+[M-01: Improper Transfer Restrictions on Non-Bridged Tokens Due to Boolean Bridged Token Tracking, Allowing a DoS Attack Vector](https://code4rena.com/evaluate/2025-02-thorwallet/findings/S-125)
