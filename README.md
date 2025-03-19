@@ -51,7 +51,7 @@ These are additional changes that will be in scope.
 | URL | Reference ID | Purpose | 
 | ----------- | ------------- | ----------- |
 | https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/1 | F-3 | Fix issue claiming TITN on day 360 |
-| https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/3 | F-4 | This mitigation does XYZ |
+| https://github.com/THORWallet/TGT-TITN-merge-contracts/pull/3 | F-4 | Do not allow transfers to the LZ endpoint as it is not needed |
 
 
 ## Out of Scope
